@@ -37,7 +37,7 @@ class HomeController extends ControllerMVC {
     }
   }
 
-  // Sign in with email and password
+  // Sign in with email and password.
   Future signInWithEmailAndPassword(String email, String password) async {
     try {
       UserCredential result = await _auth.signInWithEmailAndPassword(
@@ -50,7 +50,7 @@ class HomeController extends ControllerMVC {
     }
   }
 
-  // Register with email and password
+  // Register with email and password.
   Future registerWithEmailAndPassword(String email, String password) async {
     try {
       UserCredential result = await _auth.createUserWithEmailAndPassword(
@@ -63,7 +63,7 @@ class HomeController extends ControllerMVC {
     }
   }
 
-  // Sign out
+  // Sign out.
   Future signOut() async {
     try {
       return await _auth.signOut();
