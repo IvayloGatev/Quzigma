@@ -1,3 +1,14 @@
 {
-    "title": "Good Morning"
+    "sign_in_title": "Sign in to ",
+    "register_label": "Register",
+    "email_validation": "Enter an email",
+    "password_validation": "Enter a password 6+ chars long",
+    "sign_in_button": "Sign in" ,
+    "sign_in error": "Could not sign in with those credentials",
+    "register_title": "Sign up to ",
+    "sign_in_label": "Sign In",
+    "register_button": "Register",
+    "register_error" : "Please supply a valid email",
+    "home_title": "Welcome to ",
+    "logout_label": "Logout"
 }
